@@ -12,6 +12,11 @@ body {
 .navbar {
     background-color: #25262a;
 }
+
+.home {
+    color: crimson !important;
+}
+
 .nav-link {
     margin-left: 15px;
 }
@@ -29,7 +34,7 @@ body {
 }
 
 .jumbotron-content {
-    padding-top: 220px;
+    padding-top: 185px;
 }
 
 .handsome {
@@ -51,6 +56,7 @@ body {
     letter-spacing: 5px;
     opacity: 0.9;
 }
+
 
 /* About me^^ */
 .about-me {
@@ -75,6 +81,10 @@ body {
 .my-projects-heading {
     padding-top: 55px;
     color: crimson;
+}
+
+.my-projects-item {
+    color: white;
 }
 
 

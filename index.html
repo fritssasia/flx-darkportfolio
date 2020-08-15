@@ -50,7 +50,7 @@
                         <a class="nav-link active" href="#about-me">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#my-">My Projects</a>
+                        <a class="nav-link active" href="#my-experience">My experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#my-projects">My Projects</a>
@@ -117,20 +117,56 @@
         </div>
     </section>
 
+    <!-- My experience -->
+    <!-- <section class="my-experience" id="my-experience">
+        <div class="container">
+            <h2 class="my-experience-heading text-center">My Experience</h2>
+            <div class="my-experience-content text-center">
+
+
+
+            </div>
+        </div>
+    </section> -->
+
+
     <!-- My projects -->
     <section class="my-projects" id="my-projects">
         <div class="container">
             <h2 class="my-projects-heading text-center">My Projects</h2>
             <div class="my-projects-content text-center">
 
+                <ul class="nav justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link my-projects-item active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true">All categories</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false">Web frontend</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Python tools</a>
+                    </li>
+                </ul>
 
+                <!-- -------------------------------------------------------------------------------------- -->
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                </div>
 
             </div>
         </div>
     </section>
 
+
     <!-- Say hello :) -->
-    <section class="say-hello" id="say-hello">
+    <!-- <section class="say-hello" id="say-hello">
         <div class="container">
             <h2 class="say-hello-heading text-center">Say Hello</h2>
             <div class="say-hello-content text-center">
@@ -139,13 +175,14 @@
 
             </div>
         </div>
-    </section>
+    </section>  -->
+
 
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content text-center">
-                <p>Built with ❤️ by Frits Sasia</p>
+                <p>Built with  by Frits Sasia</p>
             </div>
         </div>
     </footer>
