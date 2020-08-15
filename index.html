@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/bootstrap-offline/bootstrap.min.css">
 
     <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
     <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
@@ -22,6 +25,9 @@
 
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Scroll animation CSS -->
+    <link rel="stylesheet" href="css/scroll-animation.css">
 
     <title>fritsPortfolio</title>
 </head>
@@ -38,10 +44,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link home active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#my-">My Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#my-projects">My Projects</a>
@@ -70,6 +79,19 @@
                 </h5>
 
                 <p class="my-profession">Junior Web Frontend Developer</p>
+
+                <div id="scroll-down-animation-wrapper">
+                    <div id="wrapper-inner">
+                        <div id="scroll-down">
+                            <span class="arrow-down">
+                                <!-- css generated icon -->
+                            </span>
+                            <span id="scroll-title">
+                                Scroll down
+                            </span>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
