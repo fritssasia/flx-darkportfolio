@@ -2,6 +2,10 @@
 @media (max-width: 575.98px) {
 
     /* Jumbotron */
+    .jumbotron-content {
+        padding-top: 185px;
+    }
+
     .my-name {
         font-size: 26px;
     }
@@ -46,6 +50,10 @@
 @media (min-width: 1200px) {
 
     /* Jumbotron */
+    .jumbotron-content {
+        padding-top: 160px;
+    }
+
     .my-name {
         font-size: 35px;
     }
