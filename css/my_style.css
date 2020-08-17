@@ -91,29 +91,6 @@ body {
     color: white;
 }
 
-.my-projects-img-top-left {
-    border-top-left-radius: 15px;
-}
-
-.my-projects-img-top-right {
-    border-top-right-radius: 15px;
-}
-
-.my-projects-img-bottom-left {
-    border-bottom-left-radius: 15px;
-}
-
-.my-projects-bottom-right {
-    border-bottom-right-radius: 15px;
-}
-
-.my-projects-all-preview-img {
-    height: 225px;
-    width: 350px;
-    margin-top: 15px;
-    object-fit: cover;
-}
-
 
 /* Say hello */
 .say-hello {
