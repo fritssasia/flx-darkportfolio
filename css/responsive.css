@@ -10,6 +10,15 @@
     .br-about-me-content {
         display: none;
     }
+
+    /* My projects */
+    .my-projects-all-preview-img {
+        height: 225px;
+        width: 335px;
+        margin-top: 15px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
 }
 
 /* small devices (landscape phones, 576px and up) */
