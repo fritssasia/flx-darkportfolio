@@ -1,60 +1,111 @@
-#preloader-1 {
+.progress {
     position: relative;
-    margin: 0px auto;
-    width: 100px;
+    height: 2px;
+    display: block;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+    background-clip: padding-box;
+    /*margin: 0.5rem 0 1rem 0;*/
+    overflow: hidden;
+
 }
 
-#preloader-1 span {
+.progress .indeterminate {
+    background-color: black;
+}
+
+.progress .indeterminate:before {
+    content: '';
     position: absolute;
-    border: 8px solid #fff;
-    border-top: 8px solid transparent;
-    border-radius: 999px;
+    background-color: #2C67B1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+    animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
 }
 
-#preloader-1 span:nth-child(1) {
-    width: 80px;
-    height: 80px;
-    animation: spin-1 2s infinite linear;
+.progress .indeterminate:after {
+    content: '';
+    position: absolute;
+    background-color: #2C67B1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    -webkit-animation-delay: 1.15s;
+    animation-delay: 1.15s;
 }
 
-#preloader-1 span:nth-child(2) {
-    top: 20px;
-    left: 20px;
-    width: 40px;
-    height: 40px;
-    animation: spin-2 1s infinite linear;
-}
 
-@keyframes spin-1 {
+@-webkit-keyframes indeterminate {
     0% {
-        transform: rotate(360deg);
-        opacity: 1;
+        left: -35%;
+        right: 100%;
     }
 
-    50% {
-        transform: rotate(180deg);
-        opacity: 0.5;
+    60% {
+        left: 100%;
+        right: -90%;
     }
 
     100% {
-        transform: rotate(0deg);
-        opacity: 1;
+        left: 100%;
+        right: -90%;
     }
 }
 
-@keyframes spin-2 {
+@keyframes indeterminate {
     0% {
-        transform: rotate(0deg);
-        opacity: 0.5;
+        left: -35%;
+        right: 100%;
     }
 
-    50% {
-        transform: rotate(180deg);
-        opacity: 1;
+    60% {
+        left: 100%;
+        right: -90%;
     }
 
     100% {
-        transform: rotate(360deg);
-        opacity: 0.5;
+        left: 100%;
+        right: -90%;
     }
 }
+
+@-webkit-keyframes indeterminate-short {
+    0% {
+        left: -200%;
+        right: 100%;
+    }
+
+    60% {
+        left: 107%;
+        right: -8%;
+    }
+
+    100% {
+        left: 107%;
+        right: -8%;
+    }
+}
+
+@keyframes indeterminate-short {
+    0% {
+        left: -200%;
+        right: 100%;
+        }
+
+        60% {
+            left: 107%;
+            right: -8%;
+        }
+
+        100% {
+            left: 107%;
+            right: -8%;
+        }
+        }

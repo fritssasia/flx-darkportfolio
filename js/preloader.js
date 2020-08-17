@@ -1,3 +1,6 @@
-$(document).ready(function () {
-    $(".preloader-1").fadeOut(5000);
-})
+document.onreadystatechange = function () {
+    if (document.readyState === "complete") {
+        console.log(document.readyState);
+        document.getElementById("PreLoaderBar").style.display = "none";
+    }
+}
