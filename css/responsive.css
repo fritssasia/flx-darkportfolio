@@ -1,5 +1,6 @@
 /* extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
     /* Jumbotron */
     .my-name {
         font-size: 26px;
@@ -48,5 +49,30 @@
 
     .about-me-btn {
         margin-top: 20px;
+    }
+
+
+    /* My projects */
+    .my-projects-img-top-left {
+        border-top-left-radius: 15px;
+    }
+
+    .my-projects-img-top-right {
+        border-top-right-radius: 15px;
+    }
+
+    .my-projects-img-bottom-left {
+        border-bottom-left-radius: 15px;
+    }
+
+    .my-projects-bottom-right {
+        border-bottom-right-radius: 15px;
+    }
+
+    .my-projects-all-preview-img {
+        height: 225px;
+        width: 350px;
+        margin-top: 15px;
+        object-fit: cover;
     }
 }
