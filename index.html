@@ -44,19 +44,19 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link home active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link navbar-link home active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#about-me">About Me</a>
+                        <a class="nav-link navbar-link active" href="#about-me">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#my-experience">My experience</a>
+                        <a class="nav-link navbar-link active" href="#my-experience">My experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#my-projects">My Projects</a>
+                        <a class="nav-link navbar-link active" href="#my-projects">My Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#say-hello">Say hello :)</a>
+                        <a class="nav-link navbar-link active" href="#say-hello">Say hello :)</a>
                     </li>
                 </ul>
             </div>
@@ -138,26 +138,71 @@
 
                 <ul class="nav justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link my-projects-item active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                            aria-controls="home" aria-selected="true">All categories</a>
+                        <a class="nav-link navbar-projects-link my-projects-navlink active" id="home-tab" data-toggle="tab"
+                            href="#all-categories" role="tab" aria-controls="home" aria-selected="true">All
+                            categories</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                            aria-controls="profile" aria-selected="false">Web frontend</a>
+                        <a class="nav-link navbar-projects-link my-projects-navlink" id="profile-tab" data-toggle="tab"
+                            href="#frontend-web" role="tab" aria-controls="profile" aria-selected="false">Frontend
+                            web</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                            aria-controls="contact" aria-selected="false">Python tools</a>
+                        <a class="nav-link navbar-projects-link my-projects-navlink" id="contact-tab" data-toggle="tab"
+                            href="#python-tools" role="tab" aria-controls="contact" aria-selected="false">Python
+                            tools</a>
                     </li>
                 </ul>
 
                 <!-- -------------------------------------------------------------------------------------- -->
 
                 <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...
+
+                    <div class="tab-pane fade show active" id="all-categories" role="tabpanel"
+                        aria-labelledby="home-tab">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-lg-4">AAG</div>
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+
+                    <div class="tab-pane fade" id="frontend-web" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-lg-4">
+                                    <img src="images/project-img/testgreyChair.png" alt="" class="my-projects-all-preview-img frontend-web-preview-img">
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <img src="images/project-img/testgreyChair.png" alt="" class="my-projects-all-preview-img frontend-web-preview-img">
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <img src="images/project-img/testgreyChair.png" alt="" class="my-projects-all-preview-img frontend-web-preview-img">
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <img src="images/project-img/testgreyChair.png" alt="" class="my-projects-all-preview-img frontend-web-preview-img">
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <img src="images/project-img/testgreyChair.png" alt="" class="my-projects-all-preview-img frontend-web-preview-img">
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <img src="images/project-img/testgreyChair.png" alt="" class="my-projects-all-preview-img frontend-web-preview-img">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="python-tools" role="tabpanel" aria-labelledby="contact-tab">CC</div>
+
                 </div>
 
             </div>
@@ -182,7 +227,7 @@
     <footer>
         <div class="container">
             <div class="footer-content text-center">
-                <p>Built with  by Frits Sasia</p>
+                <p>Built with <i class="fas fa-heart footer-heart"> </i> by Frits Sasia</p>
             </div>
         </div>
     </footer>

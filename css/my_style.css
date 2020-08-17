@@ -17,11 +17,11 @@ body {
     color: crimson !important;
 }
 
-.nav-link {
+.navbar-link {
     margin-left: 15px;
 }
 
-.nav-link:hover {
+.navbar-link:hover {
     color: crimson !important;
     transition: all 0.5 ease;
 }
@@ -41,7 +41,7 @@ body {
     height: 100px;
     object-fit: cover;
     border-radius: 100px;
-    border: 2px solid crimson;
+    border: 2px solid white;
 }
 
 .my-name {
@@ -83,8 +83,19 @@ body {
     color: crimson;
 }
 
-.my-projects-item {
+.navbar-projects-link:hover {
+    color: crimson;
+}
+
+.my-projects-navlink {
     color: white;
+}
+
+.my-projects-all-preview-img {
+    height: 250px;
+    width: 350px;
+    margin-top: 15px;
+    object-fit: cover;
 }
 
 
@@ -102,4 +113,9 @@ body {
 footer {
     margin-top: 35px;
     background-color: #232629;
+}
+
+.footer-heart {
+    color: rgb(240, 24, 24);
+    text-shadow: 0px 0px 55px rgb(240, 24, 24);
 }
