@@ -57,11 +57,23 @@ body {
     opacity: 0.9;
 }
 
+.jumbotron-contact {
+    color: #9e9898;
+    padding-left: 10px;
+}
+
+.jumbotron-contact:hover {
+    color: white;
+}
+
+.scroll-down-animation-wrapper {
+    padding-top: 25px;
+}
+
 
 /* About me^^ */
 .about-me {
     background-color: #232629;
-    /* background-color: #232627; */
 }
 
 .about-me-heading {
