@@ -1,5 +1,8 @@
 /* extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    body {
+        overflow-x: hidden !important;
+    }
 
     /* Jumbotron */
     .jumbotron-content {
@@ -17,16 +20,22 @@
 
     /* My projects */
     .my-projects-all-preview-img {
-        height: 225px;
-        width: 335px;
+        height: auto;
+        width: 100%;
         margin-top: 15px;
         object-fit: cover;
         border-radius: 10px;
+        object-fit: cover;
     }
 }
 
 /* small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Jumbotron */
+    .jumbotron-content {
+        padding-top: 125px;
+    }
 
     /* About me^^ */
     .br-about-me-content {
@@ -87,8 +96,8 @@
     }
 
     .my-projects-all-preview-img {
-        height: 225px;
-        width: 350px;
+        height: auto;
+        width: 102%;
         margin-top: 15px;
         object-fit: cover;
     }
