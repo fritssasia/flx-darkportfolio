@@ -127,6 +127,10 @@ body {
     color: crimson;
 }
 
+.years-of-education, .years-of-work {
+    color: crimson;
+}
+
 
 /* My projects */
 .my-projects {
