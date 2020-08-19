@@ -82,6 +82,10 @@ body {
 }
 
 /* My experience */
+.my-experience-heading {
+    color: crimson;
+}
+
 .my-experience-content {
     margin-top: 35px;
 }
