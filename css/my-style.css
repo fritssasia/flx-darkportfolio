@@ -85,7 +85,8 @@ body {
     color: crimson;
 }
 
-.btn-see-my-project, .btn-download-cv {
+.btn-see-my-project,
+.btn-download-cv {
     background-color: crimson;
 }
 
@@ -108,12 +109,14 @@ body {
     margin-top: 50px;
 }
 
-.my-education-heading, .my-work-experience {
+.my-education-heading,
+.my-work-experience {
     font-family: 'Bebas Neue';
     color: crimson;
 }
 
-.card-my-education, .card-my-work-experience {
+.card-my-education,
+.card-my-work-experience {
     background-color: #25262a;
     box-shadow: 0px 0px 4px #4d4949;
     border: none;
@@ -121,15 +124,18 @@ body {
     border-right: 2px solid crimson;
 }
 
-.school, .work {
+.school,
+.work {
     font-family: 'Bebas Neue';
 }
 
-.school-name, .workplace {
+.school-name,
+.workplace {
     color: crimson;
 }
 
-.years-of-education, .years-of-work {
+.years-of-education,
+.years-of-work {
     color: crimson;
 }
 
@@ -153,6 +159,10 @@ body {
     color: white;
 }
 
+.nav-pills>li>a.active {
+    background-color: crimson !important;
+}
+
 
 /* Say hello */
 .say-hello {
@@ -164,6 +174,11 @@ body {
     font-family: 'Bebas Neue';
     color: crimson;
 }
+
+.say-hello-content {
+    margin-top: 40px;
+}
+
 
 /* Footer */
 footer {
