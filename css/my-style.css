@@ -165,17 +165,17 @@ body {
 
 
 /* Say hello */
-.say-hello {
+.my-contact {
     background-color: #232629;
 }
 
-.say-hello-heading {
+.my-contact-heading {
     padding-top: 55px;
     font-family: 'Bebas Neue';
     color: crimson;
 }
 
-.say-hello-content {
+.my-contact-content {
     margin-top: 40px;
 }
 
