@@ -18,6 +18,12 @@
         display: none;
     }
 
+
+    /* My experience */
+    .my-work-experience-content {
+        padding-top: 35px;
+    }
+
     /* My projects */
     .my-projects-all-preview-img {
         height: auto;
