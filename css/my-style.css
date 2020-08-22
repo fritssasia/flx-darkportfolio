@@ -217,6 +217,16 @@ body {
     color: crimson;
 }
 
+.modal-project-name, .modal-project-stack {
+    color: crimson;
+}
+
+.project-stack {
+    border: 1px solid crimson;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
 
 /* Footer */
 footer {
