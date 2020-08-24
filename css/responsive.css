@@ -33,6 +33,12 @@
         border-radius: 10px;
         object-fit: cover;
     }
+
+
+    /* Footer */
+    .btn-back-to-top {
+        font-size: 35px;
+    }
 }
 
 /* small devices (landscape phones, 576px and up) */
@@ -40,12 +46,38 @@
 
     /* Jumbotron */
     .jumbotron-content {
-        padding-top: 125px;
+        padding-top: 185px;
+    }
+
+    .my-name {
+        font-size: 26px;
     }
 
     /* About me^^ */
     .br-about-me-content {
         display: none;
+    }
+
+
+    /* My experience */
+    .my-work-experience-content {
+        padding-top: 35px;
+    }
+
+    /* My projects */
+    .my-projects-all-preview-img {
+        height: auto;
+        width: 100%;
+        margin-top: 15px;
+        object-fit: cover;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+
+    /* Footer */
+    .btn-back-to-top {
+        font-size: 35px;
     }
 }
 
@@ -80,10 +112,67 @@
         border-radius: 10px;
         object-fit: cover;
     }
+
+
+    /* Footer */
+    .btn-back-to-top {
+        font-size: 40px;
+    }
 }
 
 /* large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Jumbotron */
+    .jumbotron-content {
+        padding-top: 140px;
+    }
+
+    .my-name {
+        font-size: 35px;
+    }
+
+
+    /* About me^^ */
+    .about-me-content {
+        padding-top: 10px;
+    }
+
+    .about-me-btn {
+        margin-top: 20px;
+    }
+
+
+    /* My projects */
+    .my-projects-img-top-left {
+        border-top-left-radius: 15px;
+    }
+
+    .my-projects-img-top-right {
+        border-top-right-radius: 15px;
+    }
+
+    .my-projects-img-bottom-left {
+        border-bottom-left-radius: 15px;
+    }
+
+    .my-projects-bottom-right {
+        border-bottom-right-radius: 15px;
+    }
+
+    .my-projects-all-preview-img {
+        height: auto;
+        width: 102%;
+        margin-top: 15px;
+        object-fit: cover;
+    }
+
+
+    /* Footer */
+    .btn-back-to-top {
+        font-size: 40px;
+    }
+}
 
 /* extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -108,8 +197,13 @@
     }
 
 
+    /* Footer */
+    .btn-back-to-top {
+        font-size: 40px;
+    }
+
+
     /* My projects */
-    /* 
     .my-projects-img-top-left {
         border-top-left-radius: 15px;
     }
@@ -124,12 +218,17 @@
 
     .my-projects-bottom-right {
         border-bottom-right-radius: 15px;
-    }  */
+    }
 
     .my-projects-all-preview-img {
         height: auto;
         width: 102%;
         margin-top: 15px;
         object-fit: cover;
+    }
+
+    /* Footer */
+    .btn-back-to-top {
+        font-size: 40px;
     }
 }
