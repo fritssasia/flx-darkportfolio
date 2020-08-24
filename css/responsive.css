@@ -52,9 +52,33 @@
 /* medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    /* Jumbotron */
+    .jumbotron-content {
+        padding-top: 140px;
+    }
+
+    .my-name {
+        font-size: 35px;
+    }
+
+
     /* About me^^ */
-    .br-about-me-content {
-        display: none;
+    .about-me-content {
+        padding-top: 10px;
+    }
+
+    .about-me-btn {
+        margin-top: 20px;
+    }
+
+
+    /* My projects */
+    .my-projects-all-preview-img {
+        height: auto;
+        width: 102%;
+        margin-top: 15px;
+        border-radius: 10px;
+        object-fit: cover;
     }
 }
 
@@ -85,6 +109,7 @@
 
 
     /* My projects */
+    /* 
     .my-projects-img-top-left {
         border-top-left-radius: 15px;
     }
@@ -99,7 +124,7 @@
 
     .my-projects-bottom-right {
         border-bottom-right-radius: 15px;
-    }
+    }  */
 
     .my-projects-all-preview-img {
         height: auto;
