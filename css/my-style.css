@@ -8,7 +8,7 @@ body {
     color: white;
 }
 
-/* Navbar */
+/* ================= Navbar ================= */
 .navbar {
     background-color: #25262a;
     font-family: 'Bebas Neue';
@@ -28,7 +28,7 @@ body {
 }
 
 
-/* Jumbotron */
+/* ================= Jumbotron ================= */
 .jumbotron {
     background-color: #25262a;
     height: 600px;
@@ -70,7 +70,7 @@ body {
 }
 
 
-/* About me^^ */
+/* ================= About me ================= */
 .about-me {
     background-color: #232629;
 }
@@ -99,7 +99,7 @@ body {
     background-color: #c4173a;
 }
 
-/* My experience */
+/* ================= My experience ================= */
 .my-experience-heading {
     padding-top: 55px;
     font-family: 'Bebas Neue';
@@ -107,7 +107,7 @@ body {
 }
 
 .my-experience-content {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .my-education-heading,
@@ -141,7 +141,7 @@ body {
 }
 
 
-/* My projects */
+/* ================= My projects ================= */
 .my-projects {
     background-color: #232629;
 }
@@ -165,7 +165,7 @@ body {
 }
 
 
-/* Say hello */
+/* ================= My contact ================= */
 .my-contact {
     background-color: #232629;
 }
@@ -209,7 +209,32 @@ body {
     background-color: #c4173a;
 }
 
-/* My-projects Modal */
+
+/* ================= Footer ================= */
+footer {
+    margin-top: 35px;
+    background-color: #232629;
+}
+
+.footer-heart {
+    color: #f01818;
+    text-shadow: 0px 0px 55px #f01818;
+}
+
+.btn-back-to-top {
+    float: right;
+    margin-top: -20px;
+    text-decoration: none;
+    color: crimson;
+}
+
+.btn-back-to-top:hover {
+    color: #c4173a;
+    transition: all 0.5s;
+}
+
+
+/* ================= My-projects Modal ================= */
 .modal-header {
     border: none;
 }
@@ -238,28 +263,4 @@ body {
 
 .modal-btn-in-modal {
     margin-top: 25px;
-}
-
-
-/* Footer */
-footer {
-    margin-top: 35px;
-    background-color: #232629;
-}
-
-.footer-heart {
-    color: #f01818;
-    text-shadow: 0px 0px 55px #f01818;
-}
-
-.btn-back-to-top {
-    float: right;
-    margin-top: -20px;
-    text-decoration: none;
-    color: crimson;
-}
-
-.btn-back-to-top:hover {
-    color: #c4173a;
-    transition: all 0.5s;
 }
