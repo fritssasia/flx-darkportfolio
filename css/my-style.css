@@ -88,6 +88,7 @@ body {
 .btn-see-my-project,
 .btn-download-cv {
     background-color: crimson;
+    border: none;
 }
 
 .btn-see-my-project:hover {
