@@ -1,7 +1,7 @@
-/* extra small devices (portrait phones, less than 576px) */
+/* ================= extra small devices (portrait phones, less than 576px) ================= */
 @media (max-width: 575.98px) {
 
-    /* Jumbotron */
+    /* ----------------- Jumbotron ----------------- */
     .jumbotron-content {
         padding-top: 185px;
     }
@@ -10,18 +10,18 @@
         font-size: 26px;
     }
 
-    /* About me^^ */
+    /* ----------------- About me ----------------- */
     .br-about-me-content {
         display: none;
     }
 
 
-    /* My experience */
+    /* ----------------- My experience ----------------- */
     .my-work-experience-content {
-        padding-top: 35px;
+        padding-top: 20px;
     }
 
-    /* My projects */
+    /* ----------------- My projects ----------------- */
     .my-projects-all-preview-img {
         height: auto;
         width: 100%;
@@ -32,16 +32,16 @@
     }
 
 
-    /* Footer */
+    /* ----------------- Footer ----------------- */
     .btn-back-to-top {
         font-size: 35px;
     }
 }
 
-/* small devices (landscape phones, 576px and up) */
+/* ================= small devices (landscape phones, 576px and up) ================= */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    /* Jumbotron */
+    /* ----------------- Jumbotron ----------------- */
     .jumbotron-content {
         padding-top: 185px;
     }
@@ -50,18 +50,18 @@
         font-size: 26px;
     }
 
-    /* About me^^ */
+    /* ----------------- About me ----------------- */
     .br-about-me-content {
         display: none;
     }
 
 
-    /* My experience */
+    /* ----------------- My experience ----------------- */
     .my-work-experience-content {
         padding-top: 35px;
     }
 
-    /* My projects */
+    /* ----------------- My projects ----------------- */
     .my-projects-all-preview-img {
         height: auto;
         width: 100%;
@@ -72,7 +72,7 @@
     }
 
 
-    /* Footer */
+    /* ----------------- Footer ----------------- */
     .btn-back-to-top {
         font-size: 35px;
     }
@@ -81,7 +81,7 @@
 /* medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    /* Jumbotron */
+    /* ----------------- Jumbotron ----------------- */
     .jumbotron-content {
         padding-top: 140px;
     }
@@ -91,7 +91,7 @@
     }
 
 
-    /* About me^^ */
+    /* -----------------  About me ----------------- */
     .about-me-content {
         padding-top: 10px;
     }
@@ -101,7 +101,7 @@
     }
 
 
-    /* My projects */
+    /* ----------------- My projects ----------------- */
     .my-projects-all-preview-img {
         height: auto;
         width: 102%;
@@ -120,7 +120,7 @@
 /* large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    /* Jumbotron */
+    /* ----------------- Jumbotron ----------------- */
     .jumbotron-content {
         padding-top: 140px;
     }
@@ -130,7 +130,7 @@
     }
 
 
-    /* About me^^ */
+    /* ----------------- About me ----------------- */
     .about-me-content {
         padding-top: 10px;
     }
@@ -140,7 +140,7 @@
     }
 
 
-    /* My projects */
+    /* ----------------- My projects ----------------- */
     .my-projects-img-top-left {
         border-top-left-radius: 15px;
     }
@@ -165,7 +165,7 @@
     }
 
 
-    /* Footer */
+    /* ----------------- Footer ----------------- */
     .btn-back-to-top {
         font-size: 40px;
     }
@@ -174,7 +174,7 @@
 /* extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-    /* Jumbotron */
+    /* ----------------- Jumbotron ----------------- */
     .jumbotron-content {
         padding-top: 140px;
     }
@@ -184,23 +184,19 @@
     }
 
 
-    /* About me^^ */
-    .about-me-content {
-        padding-top: 10px;
-    }
-
+    /* ----------------- About me ----------------- */
     .about-me-btn {
         margin-top: 20px;
     }
 
 
-    /* Footer */
+    /* ----------------- Footer ----------------- */
     .btn-back-to-top {
         font-size: 40px;
     }
 
 
-    /* My projects */
+    /* ----------------- My projects ----------------- */
     .my-projects-img-top-left {
         border-top-left-radius: 15px;
     }
@@ -224,7 +220,7 @@
         object-fit: cover;
     }
 
-    /* Footer */
+    /* ----------------- Footer ----------------- */
     .btn-back-to-top {
         font-size: 40px;
     }
