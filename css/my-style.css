@@ -244,6 +244,7 @@ footer {
 }
 
 .modal-project-name,
+.modal-project-tag-icon,
 .modal-project-stack {
     color: crimson;
 }
@@ -253,12 +254,6 @@ footer {
     padding: 4px 10px;
     margin-right: 7px;
     border-radius: 4px;
-}
-
-.project-stack:hover {
-    background-color: crimson;
-    color: white;
-    transition: all 0.5s;
 }
 
 .modal-btn-in-modal {
