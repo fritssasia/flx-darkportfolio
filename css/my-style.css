@@ -121,7 +121,13 @@ body {
     background-color: #25262a;
     box-shadow: 0px 0px 4px #4d4949;
     border: none;
+}
+
+.card-my-education {
     border-left: 2px solid crimson;
+}
+
+.card-my-work-experience {
     border-right: 2px solid crimson;
 }
 
