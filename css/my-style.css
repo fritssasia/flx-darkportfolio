@@ -241,6 +241,15 @@ footer {
 
 
 /* ================= My-projects Modal ================= */
+
+.modal-body {
+    background-color: #25262a;
+}
+
+.btn-close-modal {
+    color: crimson !important;
+}
+
 .modal-header {
     border: none;
 }
@@ -255,8 +264,26 @@ footer {
     color: crimson;
 }
 
+.modal-project-tag-name {
+    /* line-height: 1px; */
+    color: whitesmoke;
+}
+
+.modal-project-description {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.modal-project-stack {
+    border-left: 2px solid crimson;
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
 .project-stack {
     border: 1px solid crimson;
+    color: whitesmoke;
     padding: 4px 10px;
     margin-right: 7px;
     border-radius: 4px;
@@ -264,4 +291,8 @@ footer {
 
 .modal-btn-in-modal {
     margin-top: 25px;
+}
+
+.project-img-modal {
+    border-radius: 7px;
 }
