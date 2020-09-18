@@ -1,0 +1,287 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: #232629;
+    color: white;
+}
+
+/* ================= Navbar ================= */
+.navbar {
+    background-color: #25262a;
+    font-family: 'Bebas Neue';
+}
+
+.current {
+    color: crimson !important;
+}
+
+.navbar-link {
+    margin-left: 15px;
+}
+
+.navbar-link:hover {
+    color: crimson !important;
+    transition: all 0.5 ease;
+}
+
+
+/* ================= Jumbotron ================= */
+.jumbotron {
+    background-color: #25262a;
+    height: 600px;
+}
+
+.my-profile-pict {
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.my-name {
+    padding-top: 15px;
+    font-family: 'Bebas Neue';
+    color: white;
+    letter-spacing: 10px;
+}
+
+.my-profession {
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 13px;
+    letter-spacing: 5px;
+    opacity: 0.9;
+}
+
+.jumbotron-contact {
+    color: #9e9898;
+    padding-left: 10px;
+}
+
+.jumbotron-contact:hover {
+    color: white;
+}
+
+.scroll-down-animation-wrapper {
+    padding-top: 25px;
+}
+
+
+/* ================= About me ================= */
+.about-me {
+    background-color: #232629;
+}
+
+.about-me-heading {
+    padding-top: 55px;
+    font-family: 'Bebas Neue';
+    color: crimson;
+}
+
+.my-stack {
+    color: crimson;
+}
+
+.btn-see-my-project,
+.btn-download-cv {
+    background-color: crimson;
+    border: none;
+}
+
+.btn-see-my-project:hover {
+    background-color: #c4173a;
+}
+
+.btn-download-cv:hover {
+    background-color: #c4173a;
+}
+
+/* ================= My experience ================= */
+.my-experience-heading {
+    padding-top: 55px;
+    font-family: 'Bebas Neue';
+    color: crimson;
+}
+
+.my-experience-content {
+    margin-top: 20px;
+}
+
+.my-education-heading,
+.my-work-experience {
+    font-family: 'Bebas Neue';
+    color: crimson;
+}
+
+.card-my-education,
+.card-my-work-experience {
+    background-color: #25262a;
+    box-shadow: 0px 0px 4px #4d4949;
+    border: none;
+}
+
+.card-my-education {
+    border-left: 2px solid crimson;
+}
+
+.card-my-work-experience {
+    border-right: 2px solid crimson;
+}
+
+.school,
+.work {
+    font-family: 'Bebas Neue';
+}
+
+.school-name,
+.workplace {
+    color: crimson;
+}
+
+.years-of-education,
+.years-of-work {
+    color: crimson;
+}
+
+
+/* ================= My projects ================= */
+.my-projects {
+    background-color: #232629;
+}
+
+.my-projects-heading {
+    padding-top: 55px;
+    font-family: 'Bebas Neue';
+    color: crimson;
+}
+
+.navbar-projects-link:hover {
+    color: crimson;
+}
+
+.my-projects-navlink {
+    color: white;
+}
+
+.nav-pills>li>a.active {
+    background-color: crimson !important;
+}
+
+
+/* ================= My contact ================= */
+.my-contact {
+    background-color: #232629;
+}
+
+.my-contact-heading {
+    padding-top: 55px;
+    font-family: 'Bebas Neue';
+    color: crimson;
+}
+
+.my-contact-content {
+    margin-top: 40px;
+}
+
+.card-my-contact,
+.card-form {
+    background-color: #25262a;
+    box-shadow: 0px 0px 4px #4d4949;
+}
+
+.my-contact-heading-card {
+    color: crimson;
+    font-family: 'Bebas Neue';
+}
+
+.whatsapp-number {
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp-number:hover {
+    color: crimson;
+}
+
+.btn-form-submit {
+    background-color: crimson;
+    color: white !important;
+}
+
+.btn-form-submit:hover {
+    background-color: #c4173a;
+}
+
+
+/* ================= Footer ================= */
+footer {
+    margin-top: 35px;
+    background-color: #232629;
+}
+
+.footer-heart {
+    color: #f01818;
+    text-shadow: 0px 0px 55px #f01818;
+}
+
+
+/* ================= My-projects Modal ================= */
+
+.modal-body {
+    background-color: #25262a;
+}
+
+.btn-close-modal {
+    color: crimson !important;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-title {
+    color: crimson;
+}
+
+.modal-project-name,
+.modal-project-tag-icon,
+.modal-project-stack {
+    color: crimson;
+}
+
+.modal-project-tag-name {
+    line-height: 1px;
+    color: whitesmoke;
+}
+
+.modal-project-description {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.modal-project-stack {
+    border-left: 2px solid crimson;
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.project-stack {
+    border: 1px solid crimson;
+    color: whitesmoke;
+    padding: 4px 10px;
+    margin-right: 7px;
+    border-radius: 4px;
+}
+
+.modal-btn-in-modal {
+    margin-top: 25px;
+}
+
+.project-img-modal {
+    border-radius: 7px;
+    margin-top: 15px;
+}
