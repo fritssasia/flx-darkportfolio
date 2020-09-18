@@ -8,4 +8,9 @@ Demo : https://fritssasia-darkportfolio.netlify.app/
 ## Tech
 HTML, CSS, Bootstrap, JQuery
 
+## Install
+1. Clone repository
+   
+   ```git clone```
+
 ## Customization guide
