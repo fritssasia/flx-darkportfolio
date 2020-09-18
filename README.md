@@ -1,6 +1,8 @@
 # flx-darkportfolio
 
-flx-darkportfolio is a web portfolio with a simple look and dark theme
+Simple and responsive portfolio website with a dark theme,
+you can use it as you wish and it's free for everyone
 
-[Click here to see the demo : https://fritssasia-darkportfolio.netlify.app/](https://fritssasia-darkportfolio.netlify.app/)
+Demo : https://fritssasia-darkportfolio.netlify.app/
 
+## Customization guide
