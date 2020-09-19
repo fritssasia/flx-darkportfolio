@@ -3,7 +3,7 @@
 Simple and responsive portfolio website with a dark theme,
 you can use it as you wish and it's free for everyone
 
-Demo : https://fritssasia-darkportfolio.netlify.app/
+Demo : <a href="https://fritssasia-darkportfolio.netlifyapp" target="_blank">https://fritssasia-darkportfolio.netlify.app</a>
 
 ## Tech
 ```
