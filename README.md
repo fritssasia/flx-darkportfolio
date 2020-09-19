@@ -12,7 +12,7 @@ HTML, CSS, Bootstrap 4.5, JQuery
 ## Installation
 1. Clone this repository.
 ```bash
-git clone https://github.com/zuramai/voler
+git clone https://github.com/fritssasia/flx-darkportfolio.git
 ```
 2. Open ```index.html``` in browser.
 
