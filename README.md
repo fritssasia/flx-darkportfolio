@@ -1,4 +1,5 @@
 # flx-darkportfolio
+![flx-darkportfolio](https://github.com/fritssasia/flx-darkportfolio/blob/master/screenshot_preview.png?raw=true)
 
 Simple and responsive portfolio website with a dark theme,
 you can use it as you wish and it's free for everyone
