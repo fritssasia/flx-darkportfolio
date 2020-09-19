@@ -7,7 +7,7 @@ Demo : https://fritssasia-darkportfolio.netlify.app
 
 ## Tech
 ```
-HTML, CSS, Bootstrap 4.5, JQuery
+HTML | CSS | Bootstrap 4.5 | jQuery 3.2.1
 ```
 ## Installation
 1. Clone this repository.
