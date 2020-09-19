@@ -14,6 +14,6 @@ HTML, CSS, Bootstrap 4.5, JQuery
 ```bash
 git clone https://github.com/zuramai/voler
 ```
-2. Open ```dist/index.html``` in browser.
+2. Open ```index.html``` in browser.
 
 ## Customization guide
