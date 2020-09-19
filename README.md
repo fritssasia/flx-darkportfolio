@@ -9,12 +9,11 @@ Demo : https://fritssasia-darkportfolio.netlify.app/
 ```
 HTML, CSS, Bootstrap 4.5, JQuery
 ```
-
-## Install
-1. **Clone Repository**
+## Installation
+1. Clone this repository.
 ```bash
-git clone https://github.com/fritssasia/flx-darkportfolio.git
+git clone https://github.com/zuramai/voler
 ```
-2. **Run the index.html file in your browser**
+2. Open ```dist/index.html``` in browser.
 
 ## Customization guide
