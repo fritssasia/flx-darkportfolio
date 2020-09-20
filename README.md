@@ -1,7 +1,7 @@
 # flx-darkportfolio
 <!-- ![flx-darkportfolio](https://github.com/fritssasia/flx-darkportfolio/blob/master/screenshot-preview.png?raw=true) -->
 
-Simple and responsive portfolio website with a dark theme,
+Simple and responsive static portfolio website with a dark theme,
 you can use it as you wish and it's free for everyone
 
 Demo : https://fritssasia-darkportfolio.netlify.app
