@@ -21,17 +21,11 @@ git clone https://github.com/fritssasia/flx-darkportfolio.git
 ## Customization
 1. Color
    ```
-   -------------------------------------------------
    #232629 => bg-color          : body & .modal-body
-   -------------------------------------------------
    #25262a => bg-color          : navbar
-   -------------------------------------------------
    #dc143c => bg-color & color  : .nav-active | heading-text | .nav-pils(.nav-pils bg-color when .active)
-   -------------------------------------------------
    #ffffff => color             : text
-   -------------------------------------------------
    #4d4949 => shadow            : box-shadow
-   -------------------------------------------------
    ```
    
 
