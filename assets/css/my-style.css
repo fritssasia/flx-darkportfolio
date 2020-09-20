@@ -5,7 +5,7 @@ html {
 body {
     font-family: 'Roboto';
     background-color: #232629;
-    color: white;
+    color: #ffffff;
 }
 
 /* ================= Navbar ================= */
@@ -38,19 +38,19 @@ body {
     height: 100px;
     object-fit: cover;
     border-radius: 100px;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
 }
 
 .my-name {
     padding-top: 15px;
     font-family: 'Bebas Neue';
-    color: white;
+    color: #ffffff;
     letter-spacing: 10px;
 }
 
 .my-profession {
     font-family: 'Bebas Neue';
-    color: white;
+    color: #ffffff;
     font-size: 13px;
     letter-spacing: 5px;
     opacity: 0.9;
@@ -62,7 +62,7 @@ body {
 }
 
 .jumbotron-contact:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .scroll-down-animation-wrapper {
@@ -163,7 +163,7 @@ body {
 }
 
 .my-projects-navlink {
-    color: white;
+    color: #ffffff;
 }
 
 .nav-pills>li>a.active {
@@ -199,7 +199,7 @@ body {
 
 .whatsapp-number {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 .whatsapp-number:hover {
@@ -208,7 +208,7 @@ body {
 
 .btn-form-submit {
     background-color: #dc143c;
-    color: white !important;
+    color: #ffffff !important;
 }
 
 .btn-form-submit:hover {
@@ -254,11 +254,11 @@ footer {
 
 .modal-project-tag-name {
     line-height: 1px;
-    color: whitesmoke;
+    color: #ffffffsmoke;
 }
 
 .modal-project-description {
-    color: whitesmoke;
+    color: #ffffffsmoke;
     font-size: 15px;
 }
 
@@ -271,7 +271,7 @@ footer {
 
 .project-stack {
     border: 1px solid #dc143c;
-    color: whitesmoke;
+    color: #ffffffsmoke;
     padding: 4px 10px;
     margin-right: 7px;
     border-radius: 4px;
