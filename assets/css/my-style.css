@@ -231,7 +231,7 @@ footer {
 /* ================= My-projects Modal ================= */
 
 .modal-body {
-    background-color: #25262a;
+    background-color: #232629;
 }
 
 .btn-close-modal {
@@ -254,11 +254,11 @@ footer {
 
 .modal-project-tag-name {
     line-height: 1px;
-    color: #ffffffsmoke;
+    color: #ffffff;
 }
 
 .modal-project-description {
-    color: #ffffffsmoke;
+    color: #ffffff;
     font-size: 15px;
 }
 
@@ -271,7 +271,7 @@ footer {
 
 .project-stack {
     border: 1px solid #dc143c;
-    color: #ffffffsmoke;
+    color: #ffffff;
     padding: 4px 10px;
     margin-right: 7px;
     border-radius: 4px;
