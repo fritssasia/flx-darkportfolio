@@ -4,7 +4,7 @@
 Simple and responsive static portfolio website with a dark theme,
 you can use it as you wish and it's free for everyone
 
-Demo : https://fritssasia-darkportfolio.netlify.app
+Demo : https://flx-darkportfolio.netlify.app/
 
 ## Tech
 ```
