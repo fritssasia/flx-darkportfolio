@@ -15,7 +15,7 @@ body {
 }
 
 .current {
-    color: crimson !important;
+    color: #dc143c !important;
 }
 
 .navbar-link {
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-link:hover {
-    color: crimson !important;
+    color: #dc143c !important;
     transition: all 0.5 ease;
 }
 
@@ -78,16 +78,16 @@ body {
 .about-me-heading {
     padding-top: 55px;
     font-family: 'Bebas Neue';
-    color: crimson;
+    color: #dc143c;
 }
 
 .my-stack {
-    color: crimson;
+    color: #dc143c;
 }
 
 .btn-see-my-project,
 .btn-download-cv {
-    background-color: crimson;
+    background-color: #dc143c;
     border: none;
 }
 
@@ -103,7 +103,7 @@ body {
 .my-experience-heading {
     padding-top: 55px;
     font-family: 'Bebas Neue';
-    color: crimson;
+    color: #dc143c;
 }
 
 .my-experience-content {
@@ -113,7 +113,7 @@ body {
 .my-education-heading,
 .my-work-experience-heading {
     font-family: 'Bebas Neue';
-    color: crimson;
+    color: #dc143c;
 }
 
 .card-my-education,
@@ -124,11 +124,11 @@ body {
 }
 
 .card-my-education {
-    border-left: 2px solid crimson;
+    border-left: 2px solid #dc143c;
 }
 
 .card-my-work-experience {
-    border-right: 2px solid crimson;
+    border-right: 2px solid #dc143c;
 }
 
 .school,
@@ -138,12 +138,12 @@ body {
 
 .school-name,
 .workplace {
-    color: crimson;
+    color: #dc143c;
 }
 
 .years-of-education,
 .years-of-work {
-    color: crimson;
+    color: #dc143c;
 }
 
 
@@ -155,11 +155,11 @@ body {
 .my-projects-heading {
     padding-top: 55px;
     font-family: 'Bebas Neue';
-    color: crimson;
+    color: #dc143c;
 }
 
 .navbar-projects-link:hover {
-    color: crimson;
+    color: #dc143c;
 }
 
 .my-projects-navlink {
@@ -167,7 +167,7 @@ body {
 }
 
 .nav-pills>li>a.active {
-    background-color: crimson !important;
+    background-color: #dc143c !important;
 }
 
 
@@ -179,7 +179,7 @@ body {
 .my-contact-heading {
     padding-top: 55px;
     font-family: 'Bebas Neue';
-    color: crimson;
+    color: #dc143c;
 }
 
 .my-contact-content {
@@ -193,7 +193,7 @@ body {
 }
 
 .my-contact-heading-card {
-    color: crimson;
+    color: #dc143c;
     font-family: 'Bebas Neue';
 }
 
@@ -203,11 +203,11 @@ body {
 }
 
 .whatsapp-number:hover {
-    color: crimson;
+    color: #dc143c;
 }
 
 .btn-form-submit {
-    background-color: crimson;
+    background-color: #dc143c;
     color: white !important;
 }
 
@@ -235,7 +235,7 @@ footer {
 }
 
 .btn-close-modal {
-    color: crimson !important;
+    color: #dc143c !important;
 }
 
 .modal-header {
@@ -243,13 +243,13 @@ footer {
 }
 
 .modal-title {
-    color: crimson;
+    color: #dc143c;
 }
 
 .modal-project-name,
 .modal-project-tag-icon,
 .modal-project-stack {
-    color: crimson;
+    color: #dc143c;
 }
 
 .modal-project-tag-name {
@@ -263,14 +263,14 @@ footer {
 }
 
 .modal-project-stack {
-    border-left: 2px solid crimson;
+    border-left: 2px solid #dc143c;
     padding-left: 5px;
     margin-top: 5px;
     font-size: 12px;
 }
 
 .project-stack {
-    border: 1px solid crimson;
+    border: 1px solid #dc143c;
     color: whitesmoke;
     padding: 4px 10px;
     margin-right: 7px;
