@@ -1,5 +1,5 @@
 # flx-darkportfolio
-![flx-darkportfolio](https://github.com/fritssasia/flx-darkportfolio/blob/master/screenshot_preview.png?raw=true)
+<!-- ![flx-darkportfolio](https://github.com/fritssasia/flx-darkportfolio/blob/master/screenshot-preview.png?raw=true) -->
 
 Simple and responsive portfolio website with a dark theme,
 you can use it as you wish and it's free for everyone
@@ -17,4 +17,16 @@ git clone https://github.com/fritssasia/flx-darkportfolio.git
 ```
 2. Open ```index.html``` in browser.
 
-## Customization guide
+## Customization
+1. Color
+   ```
+   #232629 (bg-color body & modal-body)
+   #25262a (bg-color navbar)
+   #dc143c (color heading-text & .nav-active)
+   #ffffff (color text)
+   #4d4949 (box-shadow)
+   ```
+   
+
+2. File ```modal-standart-template.txt```<br>
+   this file is the default template file for ```modal```
