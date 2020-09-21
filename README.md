@@ -15,7 +15,7 @@ HTML5 | CSS3 | Bootstrap 4.5 | jQuery 3.2.1
 ```bash
 git clone https://github.com/fritssasia/flx-darkportfolio.git
 ```
-1. Open ```index.html``` in browser.
+2. Open ```index.html``` in browser.
    or upload this file on web hosting
 
 ## Customization
