@@ -31,3 +31,7 @@ git clone https://github.com/fritssasia/flx-darkportfolio.git
 
 2. File ```modal-standart-template.txt```<br>
    this file is the default template file for ```modal```
+
+## Author
+* Rivas Frits Sasia<br>
+  * Facebook : [Rivas Frits Sasia](https://www.facebook.com/fritslx)
