@@ -19,13 +19,8 @@ git clone https://github.com/fritssasia/flx-darkportfolio.git
    or upload this file on web hosting
 
 ## Customization
-1. Structure
-   ```
-   
-   ```
-
-2. Color
-   ```
+1. Color
+   ```css
    #232629 => bg-color          : body & .modal-body
    #25262a => bg-color          : navbar
    #dc143c => bg-color & color  : .nav-active | heading-text | .nav-pils(.nav-pils bg-color when .active)
@@ -34,12 +29,14 @@ git clone https://github.com/fritssasia/flx-darkportfolio.git
    ```
    
 
-3. File ```modal-standart-template.txt```<br>
+2. File ```modal-standart-template.txt```<br>
    Empty html template for ```modal``` section
+
+3. You can read any information in file
 
 ## Author
 * [Rivas Frits Sasia](https://www.facebook.com/fritslx)
 
 ## Support
-Want buy me a coffee?<br>
-[Trakteer]()
+Wanna buy me a coffee?<br>
+* Click here [trakteer.id](https://trakteer.id/fritssasia)
